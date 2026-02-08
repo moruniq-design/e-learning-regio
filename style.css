@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+header h1{
+    background-color: gray;
+    color: black;
+    padding: 25px;
+    border-radius: 5px;
+}
+header{
+    margin-left: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45px;
+    background-color: black;
+    padding: 15px;
+    margin-top: 0;
+    border-radius: 5px;
+
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+.container-fluid{
+    display: flex; 
+}
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+article h1 , p{
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.btn{
+    width: 50%;
+}
+.card-un , .card-troi{
+    border: none  !important;
+}
+.card-deux{
+    background-color: gray !important;
+}
+.card-quatre h1{
+    padding: 0 5px;
+}
+.card-quatre div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+.label-1 , .label-2 {
+    gap: 7px;
+}
+.formulaire input{
+    margin-bottom: 15px;
+}
+.form-button button {
+    width: 100%;
+}
+.links a{
+    color: black;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.links div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
